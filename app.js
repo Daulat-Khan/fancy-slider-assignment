@@ -76,7 +76,6 @@ const createSlider = () => {
   document.querySelector('.main').style.display = 'block';
   // hide image aria
   imagesArea.style.display = 'none';
-  //taking the value of duration field if its negative than show an alert
   let duration = document.getElementById('duration').value;
   if (duration < 0) {
     alert("Please enter more then half a second");
